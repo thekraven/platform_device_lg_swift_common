@@ -42,6 +42,9 @@ BOARD_USE_USB_MASS_STORAGE_SWITCH := true
 #JS_ENGINE := v8
 #TARGET_USES_2G_VM_SPLIT := true
 
+#Add ICS GPU Rendering to config 
+USE_OPENGL_RENDERER := true
+
 
 # Wifi related defines
 BOARD_WPA_SUPPLICANT_DRIVER := WEXT
